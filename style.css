@@ -1,0 +1,69 @@
+* {
+  --padding-left: 40px;
+  --circle-size: 300px;
+}
+.card-size {
+  position: relative;
+  display: inline-block;
+  background-image: linear-gradient(
+    90deg,
+    rgba(240, 162, 84, 0.7315301120448179) 13%,
+    rgba(255, 0, 245, 0.3029586834733894) 100%
+  );
+  height: 300px;
+  width: 500px;
+  border-radius: 5px;
+}
+span {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 30px;
+}
+span:nth-child(1) {
+  font-size: 25px;
+  padding-top: 25px;
+}
+span:nth-child(2) {
+  font-size: 40px;
+  padding-top: 25px;
+}
+span:nth-child(3) {
+  font-size: 17px;
+  padding-top: 110px;
+}
+.corner-image {
+  margin: 0 auto;
+  padding-left: 255px;
+}
+.background-circle1,
+.background-circle2 {
+  position: absolute;
+  bottom: -130px;
+  right: 20px;
+  height: var(--circle-size);
+  width: var(--circle-size);
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+.background-circle2 {
+  right: -130px;
+  top: -10px;
+}
+article.card-size {
+  background-image: linear-gradient(
+    90deg,
+    rgba(137, 199, 246, 1) 13%,
+    rgba(17, 142, 224, 1) 100%
+  );
+}
+section.card-size {
+  background-image: linear-gradient(
+    90deg,
+    rgba(123, 219, 208, 1) 0%,
+    rgba(14, 207, 186, 1) 47%
+  );
+}
